@@ -1,0 +1,144 @@
+#cabecera{
+    background-color: #EEEEEE;
+    padding: 10px;
+    color: #539cdc;
+}
+#menu{
+    background-color: #337AB7;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+a.item_menu{
+    color: white;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+a.item_menu:hover{
+    background-color: #a3d0f8;
+    
+}
+#parrafo1{
+    color: brown;
+    font-weight: bold;
+    text-align: right;
+}
+#parrafo2{
+    color: green;
+    font-weight: light;
+    text-align: center;
+}
+#parrafo3{
+    color: blue;
+    text-transform: uppercase;
+    text-align: justify;
+}
+.ClaseParrafos{
+    background-color: burlywood;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 20px;
+}
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#footer{
+    background-color: darkcyan;
+    color: white;
+    padding: 10px;
+    box-shadow: 10px 5px 5px gray;
+}
+#deg1{
+    height: 500px;
+    background-image: linear-gradient(blue,rgb(171,220,239));
+}
+#deg2{ 
+    height: 200px;
+    background-image: linear-gradient(blue,white,green);
+}
+@font-face {
+    font-family:'Instagram' ;
+    src: url('Instagram.ttf') format('truetype');
+    font-size: normal;
+    font-weight: normal;
+}
+#deg3{
+    font-family: Instagram;
+    font-size: 80px;
+    text-align: center;
+    color: white;
+    height: 400px;
+    background-image: linear-gradient(to right,#523FCF,#AF289D,#E8223C,#F6BA50);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+#img1{
+    border: 5px solid red;
+    width: 30%;
+}
+#img2{
+    width: 30%;
+    border-radius: 5%;
+    border: 2px solid gray;
+}
+#img3{
+    width: 30%;
+    opacity: 0.5;
+}
+#img3:hover{
+    opacity: 1;
+    width: 32%;
+}
+#fondo{
+    background-color: blueviolet;
+    height: 1000px;
+    width: 100%;
+
+    background-image: url(imagen.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.3;
+    background-attachment: fixed;
+    z-index: -1;
+    position: absolute;
+}
+#transicion{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    transition: width 2s;
+}
+#transicion:hover{
+    width: 200px;
+}
+#animacion{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    animation-name: ejemplo1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes ejemplo1{
+    from{background-color: blue;}
+    to{background-color: red;}
+}
+#animacion2{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    animation-name: ejemplo2;
+    animation-duration: 3s;
+    position: relative;
+    animation-iteration-count: infinite;
+}
+@keyframes ejemplo2{
+    0%{left: 0px; top: 0px;}
+    25%{left: 200px; top: 0px;}
+    50%{left: 200px; top: 200px;}
+    75%{left: 0px; top: 200px;}
+    100%{left: 0px; top: 0px;}
+}

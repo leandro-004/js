@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>window</title>
+    <link rel="stylesheet" href="estilos.css">
+
+</head>
+<body>
+    <div id="cabecera">
+        <h1>Windows</h1>
+    </div>
+    <div id="menu">
+        <a href="index.html" class="item_menu">Inicio</a>
+        <a href="evento.html" class="item_menu">Eventos</a>
+        <a href="css.html" class="item_menu">Css</a>
+        <a href="form.html" class="item_menu">Form</a>
+        <a href="funciones.html" class="item_menu">Funciones</a>
+        <a href="location.html" class="item_menu">Location</a>
+        <a href="window.html" class="item_menu">Windows</a>
+        <a href="DOM.html" class="item_menu">DOM</a>
+    </div>
+
+    <script>
+        alert("Hola mundo");
+
+        var nombre = prompt("Cual es tu nombre?");
+        alert("Hola " +nombre);
+
+        var respuesta = confirm("Quieres seguir aprendiendo Javascript?");
+
+        if(respuesta==true){
+            alert("Bienvenido al curso");
+        }else{
+            alert(":(")
+            //window.close();
+        }
+    </script>
+</body>
+</html>
