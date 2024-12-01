@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+    <link rel="stylesheet" href="estilos.css">
+
+</head>
+<body>
+    <div id="cabecera">
+        <h1>DOM</h1>
+    </div>
+    <div id="menu">
+        <a href="index.html" class="item_menu">Inicio</a>
+        <a href="evento.html" class="item_menu">Eventos</a>
+        <a href="css.html" class="item_menu">Css</a>
+        <a href="form.html" class="item_menu">Form</a>
+        <a href="funciones.html" class="item_menu">Funciones</a>
+        <a href="location.html" class="item_menu">Location</a>
+        <a href="window.html" class="item_menu">Windows</a>
+        <a href="DOM.html" class="item_menu">DOM</a>
+    </div>
+
+    <div id="div10">
+
+    </div>
+    <input type="button" value="Inner" id="inner">
+    <input type="button" value="Append" id="append">
+    <input type="button" value="Remove" id="remove">
+    
+    <script>
+        document.getElementById("inner").addEventListener("click",function(){
+            document.getElementById("div10").innerHTML="Hola <br>";
+            }
+        );
+        document.getElementById("append").addEventListener("click",function(){
+            document.getElementById("div10").append("append");
+            }
+        );
+        document.getElementById("remove").addEventListener("click",function(){
+            document.getElementById("div10").remove();
+            }
+        );
+    </script>
+</body>
+</html>

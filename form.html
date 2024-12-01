@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="estilos.css">
+    <style>
+        #imagen {
+            margin-top: 20px;
+            max-width: 300px;
+            height: auto;
+            display: none;
+        }
+    </style>
+
+</head>
+<body>
+    <div id="cabecera">
+        <h1>Formulario</h1>
+    </div>
+    <div id="menu">
+        <a href="index.html" class="item_menu">Inicio</a>
+        <a href="evento.html" class="item_menu">Eventos</a>
+        <a href="css.html" class="item_menu">Css</a>
+        <a href="form.html" class="item_menu">Form</a>
+        <a href="funciones.html" class="item_menu">Funciones</a>
+        <a href="location.html" class="item_menu">Location</a>
+        <a href="window.html" class="item_menu">Windows</a>
+        <a href="DOM.html" class="item_menu">DOM</a>
+    </div>
+
+    <label for="lista">Seleccione:</label>
+    <select name="Lista" id="lista">
+        <option value=""></option> 
+        <option value="carro">Carro</option>
+        <option value="moto">Moto</option>
+        <option value="bicicleta">Bicicleta</option>
+    </select><br><br>
+
+    <input type="button" value="Mostrar" id="mostrar"><br>
+    <img id="imagen" src="" alt="Imagen del vehículo seleccionado">
+
+    <script src="miscript.js"></script>
+    
+</body>
+</html>
